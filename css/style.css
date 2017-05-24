@@ -1,0 +1,190 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-weight: 300;
+}
+
+.nav-link {
+  margin-left: 7px;
+  margin-right: 7px;
+  font-family: 'Satisfy', cursive;
+  font-size: 1.5em;
+}
+
+.navbar-nav {
+  float:none;
+  margin:0 auto;
+  display: block;
+  text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+.bg-faded {
+     background-color: transparent;
+     z-index: 10;
+}
+
+header {
+  height: 85vh;
+  width: 100%;
+  background-image: url("../assets/header_bg2.jpg");
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 64%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 64%, 0% 100%);
+  background-size: cover;
+  margin-top: -80px;
+  z-index: -1;
+}
+
+.header__title {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 200px;
+  color: rgba(250, 250, 250, 1);
+}
+
+.header__title h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 5em;
+}
+
+.header__title p {
+  font-size: 1.25em;
+  letter-spacing: 2px;
+}
+
+.container {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+section {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+
+h2, h3, h4 {
+  font-family: 'Satisfy', cursive;
+    font-size: 3em;
+}
+
+img {
+  border-radius: 10px;
+}
+
+#about {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 1.75em;
+}
+
+.carousel {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#campervans {
+  max-width: 1200px;
+  font-weight: 300;
+  margin: 0 auto;
+}
+
+#campervans h4 {
+  text-align: center;
+}
+#campervans ul {
+  margin: 0 -25px;
+}
+
+#campervans li {
+  text-align: left;
+  list-style: none;
+  font-size: 14px;
+}
+
+#campervans p {
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+#accom {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+#accom li {
+  list-style: none;
+  text-align: left;
+}
+
+#other {
+  padding: 100px 0;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("../assets/pexels-photo.jpg");
+  -webkit-clip-path: polygon(0 0, 100% 10%, 100% 66%, 0% 100%);
+clip-path: polygon(0 0, 100% 10%, 100% 66%, 0% 100%);
+  background-size: cover;
+  background-position: bottom;
+  color: #222;
+  font-size: 1.25em;
+}
+
+.other {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.events,
+.insurance {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#contact {
+  /*background: #A0C1B8;*/
+}
+
+.social {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.fa-facebook-official {
+  /*color: #3C599F;*/
+}
+
+.fa-envelope {
+  /*color: #fff999;*/
+}
+
+.hideme {
+    opacity:0;
+}
+
+.col-md-4 {
+  text-align: center;
+}
