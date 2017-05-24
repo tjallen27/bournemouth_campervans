@@ -285,8 +285,11 @@
       </section>
 
       <form method="POST" action="http://formspree.io/tjallen91@hotmail.co.uk">
+        <input type="hidden" name="_subject" value="Website contact" />
         <input type="email" name="email" placeholder="Your email" required>
         <textarea name="message" placeholder="Your message"></textarea>
+        <input type="hidden" name="_next" value="https://tjallen27.github.io/bournemouth_campervans/" />
+        <input type="text" name="_gotcha" style="display:none" />
         <button type="submit">Send</button>
       </form>
     </main>
