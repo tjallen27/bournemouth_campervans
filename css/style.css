@@ -189,6 +189,11 @@ clip-path: polygon(0 0, 100% 10%, 100% 66%, 0% 100%);
   text-align: center;
 }
 
+.facebook,
+.phone {
+  text-align: center;
+}
+
 form {
   display: block;
   width: 300px;
