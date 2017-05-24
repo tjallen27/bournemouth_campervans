@@ -188,3 +188,44 @@ clip-path: polygon(0 0, 100% 10%, 100% 66%, 0% 100%);
 .col-md-4 {
   text-align: center;
 }
+
+form {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+}
+
+form input {
+  width: 100%;
+}
+
+form textarea {
+  width: 100%;
+  margin-top: 20px;
+  height: 150px;
+}
+
+input,
+textarea {
+  border: solid 1px #888;
+  border-radius: 5px;
+  padding: 10px;
+  color: #333;
+}
+
+button {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+  padding: 15px;
+  border: solid 1px #fff;
+  border-radius: 5px;
+  padding: 10px 5px;
+  background: rgba(30, 30, 250, 0.75);
+  color: #fff;
+}
+
+button:hover {
+  background: rgba(30, 30, 150, 0.75);
+  cursor: pointer;
+}
