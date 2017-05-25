@@ -272,7 +272,7 @@ button {
 }
 
 button:hover {
-  background: rgba(230, 250, 230, 1);
+  background: rgba(130, 150, 130, 1);
   cursor: pointer;
 }
 
