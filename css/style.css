@@ -42,10 +42,11 @@ p {
 header {
   height: 85vh;
   width: 100%;
-  background-image: url("../assets/header_bg2.jpg");
+  background-image: url("../assets/beach_3.JPG");
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 64%, 0% 100%);
   clip-path: polygon(0 0, 100% 0, 100% 64%, 0% 100%);
   background-size: cover;
+  background-position: bottom;
   margin-top: -80px;
   z-index: -1;
 }
@@ -89,12 +90,25 @@ img {
   border-radius: 10px;
 }
 
+.row {
+  margin: 20px auto;
+}
+
 #about {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  font-size: 1.75em;
+  font-size: 1.2em;
+
+}
+
+#about p {
+  text-align: justify;
+}
+
+#about img {
+  width: 100%;
 }
 
 .carousel {
@@ -123,7 +137,20 @@ img {
 
 #campervans p {
   max-width: 800px;
-  margin: 10px auto;
+  margin: 0 auto;
+}
+
+#campervans img {
+  width: 100%;
+  height: 350px;
+}
+
+#campervans .row {
+  margin: 10px auto 50px;
+}
+
+.van_name {
+  font-size: 22px;
 }
 
 #accom {
@@ -196,8 +223,8 @@ clip-path: polygon(0 0, 100% 10%, 100% 66%, 0% 100%);
 
 form {
   display: block;
-  width: 300px;
-  margin: 0 auto;
+  width: 400px;
+  margin: 30px auto 0;
 }
 
 form input {
@@ -226,11 +253,11 @@ button {
   border: solid 1px #fff;
   border-radius: 5px;
   padding: 10px 5px;
-  background: rgba(30, 30, 250, 0.75);
+  background: rgba(30, 250, 30, 0.65);
   color: #fff;
 }
 
 button:hover {
-  background: rgba(30, 30, 150, 0.75);
+  background: rgba(30, 250, 30, 1);
   cursor: pointer;
 }
