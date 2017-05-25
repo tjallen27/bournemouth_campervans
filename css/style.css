@@ -17,8 +17,8 @@ p {
 .nav-link {
   margin-left: 7px;
   margin-right: 7px;
-  font-family: 'Satisfy', cursive;
-  font-size: 1.5em;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 2em;
 }
 
 .navbar-nav {
@@ -36,12 +36,13 @@ p {
 .bg-faded {
      background-color: transparent;
      z-index: 10;
+     padding: 0 7px;
 }
 
 header {
   height: 85vh;
   width: 100%;
-  background-image: url("../assets/beach_3.JPG");
+  background-image: url("../assets/beach_2.JPG");
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 64%, 0% 100%);
   clip-path: polygon(0 0, 100% 0, 100% 64%, 0% 100%);
   background-size: cover;
@@ -58,8 +59,8 @@ header {
 }
 
 .header__title h1 {
-  font-family: 'Satisfy', cursive;
-  font-size: 5em;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 7.5em;
 }
 
 .header__title p {
@@ -81,7 +82,7 @@ section {
 
 
 h2, h3, h4 {
-  font-family: 'Satisfy', cursive;
+  font-family: 'Reenie Beanie', cursive;
     font-size: 3em;
 }
 
@@ -253,7 +254,7 @@ form textarea {
 
 input,
 textarea {
-  border: solid 1px #888;
+  border: solid 1px #fff;
   border-radius: 5px;
   padding: 10px;
   color: #333;
@@ -264,7 +265,7 @@ button {
   width: 100px;
   margin: 0 auto;
   padding: 15px;
-  border: solid 1px #fff;
+  border: none;
   border-radius: 5px;
   padding: 10px 5px;
   background: rgba(30, 120, 230, 0.65);
@@ -288,8 +289,8 @@ button:hover {
   }
 
   .header__title h1 {
-    font-family: 'Satisfy', cursive;
-    font-size: 2.5em;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 4em;
   }
 
   section {
