@@ -237,13 +237,17 @@ img {
   /*color: #fff999;*/
 }
 
-.hideme {
+/*.hideme {
     opacity:0;
-}
+}*/
 
 .col-md-4 {
   text-align: center;
 }
+/*.col-xs-6 {
+  {
+    margin: 0 auto;
+}*/
 
 .facebook,
 .phone {
@@ -296,6 +300,8 @@ button:hover {
     margin: 5px -30px;
      border-color: transparent;
 }
+
+
 
 @media screen and (max-width: 380px){
   main {
@@ -358,4 +364,30 @@ form {
 p {
   font-size: 14px;
 }
+}
+
+@media screen and (min-device-width: 414px)
+  and (max-device-width: 736px) {
+  header {
+    height: 100vh;
+  }
+  .navbar .navbar-nav {
+    float: left;
+    width: 56%;
+    margin: 0 auto;
+    padding: 60px 0 80px 220px;
+}
+
+.navbar .navbar-nav .mr-auto ul {
+  margin: 0 auto;
+}
+
+  .header__title {
+    padding-top: 100px;
+  }
+
+  .header__title h1 {
+    font-size: 4em;
+    padding-top: 70px;
+  }
 }
