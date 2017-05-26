@@ -295,9 +295,9 @@ button:hover {
   }
   .navbar .navbar-nav {
     float: left;
-    width: 91%;
+    width: 79%;
     margin: 0 auto;
-    padding: 60px 0 80px 30px;
+    padding: 60px 0 80px 66px;
   }
 
   .header__title h1 {
