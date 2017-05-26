@@ -43,7 +43,7 @@ p {
 }
 
 header {
-  height: 85vh;
+  height: 100vh;
   width: 100%;
   background-image: url("../assets/beach_2.JPG");
   background-size: cover;
@@ -55,8 +55,9 @@ header {
 .header__title {
   margin: 0 auto;
   text-align: center;
-  padding-top: 250px;
+  padding-top: 150px;
   color: rgba(250, 250, 250, 1);
+  font-size: 2em;
 }
 
 .header__title h1 {
@@ -404,15 +405,19 @@ p {
 @media screen and (min-device-width: 737px)
   and (max-device-width: 1100px){
     .carousel {
-      width: 380px;
+      width: 360px;
     }
     #campervans img {
       width: 100%;
-      height: 280px;
+      height: 260px;
     }
 
     #other {
       padding-bottom: 10px;
+    }
+
+    #campervans ul {
+      margin: 0px 0px 0 -44px;
     }
 
     .col-6 {
