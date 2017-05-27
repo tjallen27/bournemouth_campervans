@@ -62,7 +62,7 @@ header {
 
 .header__title h1 {
   font-family: 'Reenie Beanie', cursive;
-  font-size: 5.5em;
+  font-size: 6.5em;
 }
 
 .header__title p {
@@ -431,7 +431,8 @@ p {
     .col-6 {
       width: 20%;
     }
-    .header__title {
-      padding-top: 250px;
+    .header__title h1 {
+      padding-top: 20vh;
+      font-size: 5.5em;
     }
   }
