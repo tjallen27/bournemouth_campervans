@@ -62,7 +62,7 @@ header {
 
 .header__title h1 {
   font-family: 'Reenie Beanie', cursive;
-  font-size: 7.5em;
+  font-size: 5.5em;
 }
 
 .header__title p {
@@ -324,10 +324,18 @@ button:hover {
     padding: 60px 0 80px 66px;
   }
 
+  .header__title {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 350px;
+    color: rgba(250, 250, 250, 1);
+    font-size: 1em;
+  }
+
   .header__title h1 {
     font-family: 'Reenie Beanie', cursive;
-    font-size: 4em;
-  }
+    font-size: 3.5em;
+}
 
   section {
     padding-top: 20px;
@@ -397,7 +405,7 @@ p {
   }
 
   .header__title h1 {
-    font-size: 4em;
+    font-size: 2em;
     padding-top: 70px;
   }
 }
@@ -422,5 +430,8 @@ p {
 
     .col-6 {
       width: 20%;
+    }
+    .header__title {
+      padding-top: 250px;
     }
   }
